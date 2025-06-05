@@ -1,5 +1,42 @@
 # Noface
 - A Net chat room.
+# Noface - Anonymous LAN Chat
+
+## Overview
+Lightweight C++ terminal chat system for LAN environments. No registration, no tracking.
+
+## Features
+- Anonymous messaging
+- Multi-room support
+- Cross-platform (Linux/macOS/Windows)
+- Real-time communication
+
+## Build
+```bash
+# Server
+g++ -std=c++17 server.cpp -o noface_server -lpthread
+
+# Client
+g++ -std=c++17 client.cpp -o noface_client -lpthread
+```
+
+## Usage
+1. Start server: `./noface_server 8080`
+2. Join chat: `./noface_client <server_ip> 8080 <username>`
+3. Type messages, `/exit` to quit
+
+## Design
+- Minimal dependencies
+- Privacy-focused
+- Easy to extend
+
+## Roadmap
+- End-to-end encryption
+- File sharing
+- Message history
+
+---
+
 # 终端匿名局域网聊天系统
 
 ## 项目概述
