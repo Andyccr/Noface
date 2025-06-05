@@ -1,6 +1,5 @@
-# Noface
-- A Net chat room.
 # Noface - Anonymous LAN Chat
+- A Net chat room.
 
 ## Overview
 Lightweight C++ terminal chat system for LAN environments. No registration, no tracking.
